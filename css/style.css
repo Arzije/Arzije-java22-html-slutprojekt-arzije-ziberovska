@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    color: black;
+}
+
+body, html{
+    height: 100%;
+    background-color: #dacabe;
+}
+
+.bg-img-coffee{
+    background-image: url("../images/img-bg-coffee.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-nature{
+    background-image: url("../images/img-bg-nature.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-motion{
+    background-image: url("../images/img-bg-motion.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-skonhet{
+    background-image: url("../images/img-bg-skonhet.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    background-color: #c6b7ab;
+}
+
+.nav-item{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-size:medium;
+    font-family: 'Lato', sans-serif;
+} 
+
+a{
+    text-decoration: none;
+}
+
+.header-container{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Forum', cursive;
+}
+
+.article-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.article-item{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-basis: 1%;
+    text-align:justify;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-item{
+    padding-bottom: 50px;
+}
+
+img {
+    border: 10px solid #ddd;
+    border-radius: 25px;
+  }
+
+p{
+    color: #6f5d51;
+}
+
+h3{
+    color: #42362e;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    background-color: #bd9a80;
+    margin-top: 20px;
+}
+
